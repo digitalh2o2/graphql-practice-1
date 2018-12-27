@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
+import Profile from "../Profile";
 
-const App = () => (
-  <div>
-    <p>hi</p>
-  </div>
-);
-
+class App extends Component {
+  render() {
+    return <Profile />;
+  }
+}
 export default App;
